@@ -8,6 +8,54 @@
   <title>Checkout</title>
 </head>
 <body>
+  <h1>Checkout</h1>
+  <form action="#" method="get" class="form">
+    <h2 class="form__heading">Contact information</h2>
+    <div class="form__box">
+      <label for="mail">Email</label>
+      <input id="mail" type="email" name="Email" class="form__box--input" required placeholder="Enter your email...">
+    </div>
+    <div class="form__box">
+      <label for="phone">Phone</label>
+      <input id="phone" type="tel" name="Phone" class="form__box--input" required placeholder="Enter your phone...">
+    </div>
+    <h2 class="form__heading">Shipping address</h2>
+    <div class="form__box">
+      <label for="fname">Full name</label>
+      <input id="fname" type="text" name="Name" class="form__box--input" required placeholder="Enter your Full name...">
+    </div>
+    <div class="form__box">
+      <label for="address">Address</label>
+      <input id="address" type="text" name="Address" class="form__box--input" required placeholder="Enter your address...">
+    </div>
+    <div class="form__box">
+      <label for="city">City</label>
+      <input id="city" type="text" name="City" class="form__box--input" required placeholder="Enter your city...">
+    </div>
+    <div class="form__box">
+      <label for="country">Country</label>
+      <select name="Country" id="country" required multiple 3>
+        <option value="Turkey" selected>Turkey</option>
+        <option value="Germany">Germany</option>
+        <option value="USA">USA</option>
+        <option value="Canada">Canada</option>
+        <option value="UK">UK</option>
+      </select>
+    </div>
+    <div class="form__box">
+      <label for="pcode">Post Code</label>
+      <input id="pcode" type="number" name="Postcode" class="form__box--input" placeholder="Enter your postal code...">
+    </div>
+    <div class="form__box">
+      <input id="box" type="checkbox" name="Remember" value="Yes" class="form__box--input">
+      <label for="box">See this information next time</label>
+    </div>
+    <div class="form__box">
+      <img src="IMG/photo1.png" alt="Vintage Backbag">
+      <input id="box" type="checkbox" name="Remember" value="Yes" class="form__box--input">
+      <label for="box">See this information next time</label>
+    </div>
 
+  </form>
 </body>
 </html>
