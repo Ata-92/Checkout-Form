@@ -64,3 +64,27 @@ body {
   height: initial;
 }
 
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  background-color: #eee;
+  padding: 1rem;
+}
+
+.outerbox {
+  display: block;
+}
+
+.outerbox img {
+  width: 8rem;
+  float: left;
+  /* display: inline-block; */
+}
+
+.outerbox .innerbox {
+  float: right;
+  /* display: inline-block; */
+}
