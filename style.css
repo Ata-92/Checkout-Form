@@ -1,1 +1,66 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 80rem;
+  margin: auto;
+}
+
+.form {
+  opacity: .8;
+}
+
+.form__box {
+  margin: 1rem 0;
+}
+
+.country, .postcode {
+  display: inline-block;
+}
+
+.form__box div {
+  border: .1rem solid black;
+  margin-top: 1rem;
+  border-radius: .3rem;
+  width: 30rem;
+}
+
+#countrydiv {
+  width: 7rem;
+}
+
+#postdiv {
+  width: 15rem;
+}
+
+.form__box--input, select {
+  height: 2rem;
+  border: none;
+  margin-left: .5rem;
+}
+
+.icon {
+  width: 1rem;
+  position: relative;
+  top: .2rem;
+  left: .4rem;
+}
+
+
+#emailicon {
+  width: 2rem;
+  position: relative;
+  top: .4rem;
+  left: .1rem;
+}
+
+#mail {
+  margin-left: -.2rem;
+}
+
+#box {
+  margin-top: -1rem;
+  height: initial;
+}
 

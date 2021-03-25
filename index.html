@@ -10,58 +10,93 @@
 <body>
   <h1>Checkout</h1>
   <form action="#" method="get" class="form">
-    <h2 class="form__heading">Contact information</h2>
-    <div class="form__box">
-      <label for="mail">Email</label>
-      <input id="mail" type="email" name="Email" class="form__box--input" required placeholder="Enter your email...">
+    <div class="left">
+      <h2 class="form__heading">Contact information</h2>
+      <div class="form__box">
+        <label for="mail">Email</label>
+        <br>
+        <div>
+          <img class="icon" id="emailicon" src="IMG/2.png" alt="Email Icon">
+          <input id="mail" type="email" name="Email" class="form__box--input" required placeholder="Enter your email...">
+        </div>
+      </div>
+      <div class="form__box">
+        <label for="phone">Phone</label>
+        <br>
+        <div>
+          <img class="icon" src="IMG/images.png" alt="Phone Icon">
+          <input id="phone" type="tel" name="Phone" class="form__box--input" required placeholder="Enter your phone...">
+        </div>
+      </div>
+      <h2 class="form__heading">Shipping address</h2>
+      <div class="form__box">
+        <label for="fname">Full name</label>
+        <br>
+        <div>
+          <img class="icon" src="IMG/3.png" alt="Person Icon">
+          <input id="fname" type="text" name="Name" class="form__box--input" required placeholder="Enter your Full name...">
+        </div>
+      </div>
+      <div class="form__box">
+        <label for="address">Address</label>
+        <br>
+        <div>
+          <img class="icon" src="IMG/1.png" alt="Home Icon">
+          <input id="address" type="text" name="Address" class="form__box--input" required placeholder="Enter your address...">
+        </div>
+      </div>
+      <div class="form__box">
+        <label for="city">City</label>
+        <br>
+        <div>
+          <img class="icon" src="IMG/indir.png" alt="City Icon">
+          <input id="city" type="text" name="City" class="form__box--input" required placeholder="Enter your city...">
+        </div>
+      </div>
+      <div class="form__box country">
+        <label for="country">Country</label>
+        <div id="countrydiv">
+          <img class="icon" src="IMG/indir (2).png" alt="Country Icon">
+          <select name="Country" id="country" required>
+            <option value="Turkey" selected>Turkey</option>
+            <option value="Germany">Germany</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">UK</option>
+          </select>
+        </div>
+      </div>
+      <div class="form__box postcode">
+        <label for="pcode">Post Code</label>
+        <div id="postdiv">
+          <img class="icon" src="IMG/indir (1).png" alt="Post Code Icon">
+          <input id="pcode" type="number" name="Postcode" class="form__box--input" placeholder="Enter your postal code...">
+        </div>
+      </div>
+      <div class="form__box">
+        <input id="box" type="checkbox" name="Remember" value="Yes" class="form__box--input">
+        <label for="box">See this information next time</label>
+      </div>
     </div>
-    <div class="form__box">
-      <label for="phone">Phone</label>
-      <input id="phone" type="tel" name="Phone" class="form__box--input" required placeholder="Enter your phone...">
-    </div>
-    <h2 class="form__heading">Shipping address</h2>
-    <div class="form__box">
-      <label for="fname">Full name</label>
-      <input id="fname" type="text" name="Name" class="form__box--input" required placeholder="Enter your Full name...">
-    </div>
-    <div class="form__box">
-      <label for="address">Address</label>
-      <input id="address" type="text" name="Address" class="form__box--input" required placeholder="Enter your address...">
-    </div>
-    <div class="form__box">
-      <label for="city">City</label>
-      <input id="city" type="text" name="City" class="form__box--input" required placeholder="Enter your city...">
-    </div>
-    <div class="form__box">
-      <label for="country">Country</label>
-      <select name="Country" id="country" required multiple 3>
-        <option value="Turkey" selected>Turkey</option>
-        <option value="Germany">Germany</option>
-        <option value="USA">USA</option>
-        <option value="Canada">Canada</option>
-        <option value="UK">UK</option>
-      </select>
-    </div>
-    <div class="form__box">
-      <label for="pcode">Post Code</label>
-      <input id="pcode" type="number" name="Postcode" class="form__box--input" placeholder="Enter your postal code...">
-    </div>
-    <div class="form__box">
-      <input id="box" type="checkbox" name="Remember" value="Yes" class="form__box--input">
-      <label for="box">See this information next time</label>
-    </div>
-    <div class="form__box">
-      <img src="IMG/photo1.png" alt="Vintage Backbag">
-      <h3>Vintage Backbag</h3>
-      <p><span>$54.99</span> <del>$94.99</del></p>
-      <span>-</span>1<span>+</span>
-      <br>
+    <div class="right">
+      <div class="outerbox">
+        <img src="IMG/photo1.png" alt="Vintage Backbag">
+        <div class="innerbox">
+          <h3>Vintage Backbag</h3>
+          <p><span>$54.99</span> <del>$94.99</del></p>
+          <span>&#x2212;</span>1<span>&#x2b;</span>
+          <br>
+        </div>
+      </div>
+      <div class="outerbox">
       <img src="IMG/photo2.png" alt="Levi Shoes">
-      <h3>Levi Shoes</h3>
-      <p><span>$74.99</span> <del>$124.99</del></p>
-      <span>-</span>1<span>+</span>
-      <input id="box" type="checkbox" name="Remember" value="Yes" class="form__box--input">
-      <label for="box">See this information next time</label>
+        <div class="innerbox">
+          <h3>Levi Shoes</h3>
+          <p><span>$74.99</span> <del>$124.99</del></p>
+          <span>&#x2212;</span>1<span>&#x2b;</span>
+          <br>
+        </div>
+      </div>
       <hr>
       <p>Shipping $19</p>
       <hr>
