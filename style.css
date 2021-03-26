@@ -2,12 +2,26 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
+  margin: 3rem auto;
   width: 80rem;
+}
+
+h1 {
   margin: auto;
+  width: 10rem;
 }
 
 .form {
+  margin: 3rem 0;
+}
+
+.left {
+  float: left;
   opacity: .8;
 }
 
@@ -19,6 +33,10 @@ body {
   display: inline-block;
 }
 
+.postcode {
+  margin-left: 2rem;
+}
+
 .form__box div {
   border: .1rem solid black;
   margin-top: 1rem;
@@ -27,14 +45,14 @@ body {
 }
 
 #countrydiv {
-  width: 7rem;
+  width: 9rem;
 }
 
 #postdiv {
-  width: 15rem;
+  width: 18rem;
 }
 
-.form__box--input, select {
+.form__box--input {
   height: 2rem;
   border: none;
   margin-left: .5rem;
@@ -46,7 +64,6 @@ body {
   top: .2rem;
   left: .4rem;
 }
-
 
 #emailicon {
   width: 2rem;
@@ -62,10 +79,6 @@ body {
 #box {
   margin-top: -1rem;
   height: initial;
-}
-
-.left {
-  float: left;
 }
 
 .right {
@@ -84,11 +97,11 @@ body {
 .outerbox img {
   width: 8rem;
   border-radius: 1rem;
-  opacity: 1;
 }
 
 .outerbox .innerbox {
   margin: 0 1rem;
+  opacity: .8;
 }
 
 p span {
@@ -116,4 +129,25 @@ del {
   border-radius: .3rem;
   color: black;
   margin: 0 1rem;
+}
+
+.right > p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right > p span{
+  color: black;
+}
+
+.button {
+  position: relative;
+  top: 47rem;
+  left: 7rem;
+  padding: 1rem;
+  background-color: #F2994A;
+  border-radius: 1rem;
+  color: white;
+  border: none;
+  font-weight: 700;
 }
