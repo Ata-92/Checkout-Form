@@ -55,6 +55,7 @@ h1 {
 .form__box--input {
   height: 2rem;
   border: none;
+  outline: none;
   margin-left: .5rem;
 }
 
@@ -164,9 +165,6 @@ del {
   }
   body {
     width: 30rem;
-  }
-  h1 {
-
   }
   .form {
     display: flex;
